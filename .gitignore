@@ -13,6 +13,7 @@
 !/mods/toggle-changes/
 !/mods/backlog/
 !/mods/toggle-backlog/
+!/mods/AGENTS.md
 # Herdr rewrites these in every mod folder
 *.d.ts
 jsconfig.json

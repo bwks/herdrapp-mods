@@ -118,6 +118,9 @@ Changes or Backlog (or hides it if that view is already showing), then closes it
 
 ## Changing things
 
+Coding agents: read [`mods/AGENTS.md`](mods/AGENTS.md) first. (The root `AGENTS.md` is Herdr's
+own and is rewritten on every start.)
+
 - Edit a mod's `main.js` and Herdr reloads it at once. Check it before calling it done:
   `herdr-app check ~/.config/herdr-app/mods/<name>`.
 - A broken `keys.json` or layout keeps the last good version and writes why to `keys.error` /
