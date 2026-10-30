@@ -1,6 +1,7 @@
 # Only personal Herdr files are tracked; Herdr writes or rewrites everything else here.
 /*
 !/.gitignore
+!/README.md
 !/keys.json
 !/settings.json
 !/layouts/
