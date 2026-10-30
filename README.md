@@ -8,6 +8,9 @@ Only my own files are tracked. Herdr writes or rewrites everything else in the f
 layouts and mods, `layouts/.state/`, the `.d.ts` files), so `.gitignore` leaves those out. A new mod or
 layout needs a `!` line in `.gitignore` before git will see it.
 
+**Instructions for coding agents are in [`mods/AGENTS.md`](mods/AGENTS.md).** The root `AGENTS.md` is
+Herdr's own manual, rewritten on every start.
+
 ## Install on another machine
 
 Herdr fills `~/.config/herdr-app` on its first start, so fetch into it rather than cloning:
@@ -117,9 +120,6 @@ Changes or Backlog (or hides it if that view is already showing), then closes it
 `Ctrl+Space` `g` and `Ctrl+Space` `t` open them.
 
 ## Changing things
-
-Coding agents: read [`mods/AGENTS.md`](mods/AGENTS.md) first. (The root `AGENTS.md` is Herdr's
-own and is rewritten on every start.)
 
 - Edit a mod's `main.js` and Herdr reloads it at once. Check it before calling it done:
   `herdr-app check ~/.config/herdr-app/mods/<name>`.
